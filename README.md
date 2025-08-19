@@ -1,4 +1,4 @@
-# WebDriverIO E2E Testing Portfolio
+# WebDriverIO E2E Testing Project Collection
 
 A collection of my end-to-end testing projects demonstrating my knowledge in test automation using WebDriverIO. This portfolio showcases testing scenarios across different applications and websites.
 
@@ -14,25 +14,25 @@ A collection of my end-to-end testing projects demonstrating my knowledge in tes
 
 **2. Install dependencies for each project:**
 
-   ### EPAM Final Task
+  ### 2.1 EPAM Final Task
 
    cd wdio-epam-final-task
 
    npm install
 
-   ### Amazon Tests
+   ### 2.2 Amazon Tests
 
    cd ../wdio-amazon-test
    npm install
 
-   ### E-commerce Tests
+   ### 2.3 E-commerce Tests
 
    cd ../wdio-ecommerce-tests
    npm install
 
 **3. Run the tests:**
 
-### EPAM Final Task
+### 3.1 EPAM Final Task
 
 cd wdio-epam-final-task
 
@@ -48,7 +48,7 @@ npm run test:saucelabs
 
 ---
 
-### Amazon Tests
+### 3.2 Amazon Tests
 
 cd wdio-amazon-test
 
@@ -64,7 +64,7 @@ npm run test:cart
 
 ---
 
-### E-commerce Tests
+### 3.3 E-commerce Tests
 
 cd wdio-ecommerce-tests
 
