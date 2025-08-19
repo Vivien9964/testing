@@ -9,21 +9,23 @@ A collection of my end-to-end testing projects demonstrating my knowledge in tes
 1. Clone the repository:
 
    git clone https://github.com/Vivien9964/testing.git
+   
    cd testing
 
 2. Install dependencies for each project:
 
-   # EPAM Final Task
+   ### EPAM Final Task
 
    cd wdio-epam-final-task
+
    npm install
 
-   # Amazon Tests
+   ### Amazon Tests
 
    cd ../wdio-amazon-test
    npm install
 
-   # E-commerce Tests
+   ### E-commerce Tests
 
    cd ../wdio-ecommerce-tests
    npm install
@@ -34,14 +36,15 @@ A collection of my end-to-end testing projects demonstrating my knowledge in tes
 
 cd wdio-epam-final-task
 
-# Run all tests
+### Run all Final Task tests
 
 npm test
 
-# Run specific test suites
+### Run specific Final Task test suites
 
-npm run test:login # SauceDemo login tests
-npm run test:saucelabs # SauceLabs website tests
+npm run test:login 
+
+npm run test:saucelabs 
 
 ---
 
@@ -49,14 +52,15 @@ npm run test:saucelabs # SauceLabs website tests
 
 cd wdio-amazon-test
 
-# Run all tests
+### Run all Amazon tests
 
 npm test
 
-# Run specific test suites
+### Run specific Amazon test suites
 
-npm run test:home # Homepage and search tests
-npm run test:cart # Shopping cart tests
+npm run test:home
+
+npm run test:cart
 
 ---
 
@@ -64,14 +68,15 @@ npm run test:cart # Shopping cart tests
 
 cd wdio-ecommerce-tests
 
-# Run all tests
+### Run all E-commerce tests
 
 npm test
 
-# Run specific test suites
+### Run specific E-commerce test suites
 
-npm run test:login # Login validation tests
-npm run test:products # Product management tests
+npm run test:login
+
+npm run test:products
 
 ---
 
