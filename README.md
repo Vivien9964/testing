@@ -6,13 +6,13 @@ A collection of my end-to-end testing projects demonstrating my knowledge in tes
 
 ### To run the tests:
 
-1. Clone the repository:
+1. ## Clone the repository:
 
    git clone https://github.com/Vivien9964/testing.git
    
    cd testing
 
-2. Install dependencies for each project:
+2. ## Install dependencies for each project:
 
    ### EPAM Final Task
 
@@ -30,7 +30,7 @@ A collection of my end-to-end testing projects demonstrating my knowledge in tes
    cd ../wdio-ecommerce-tests
    npm install
 
-3. Run the tests:
+3. ## Run the tests:
 
 ### EPAM Final Task
 
