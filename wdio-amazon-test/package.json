@@ -1,0 +1,20 @@
+{
+  "name": "wdio-amazon-test",
+  "version": "1.0.0",
+  "description": "Amazon E-commerce Website E2E Testing with WebDriverIO",
+  "type": "module",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "test:home": "wdio run wdio.conf.js --spec ./tests/specs/home.spec.js",
+    "test:cart": "wdio run wdio.conf.js --spec ./tests/specs/cart.spec.js"
+  },
+  "keywords": ["webdriverio", "testing", "e2e", "automation", "amazon", "ecommerce"],
+  "author": "Your Name",
+  "devDependencies": {
+    "@wdio/cli": "^9.16.2",
+    "@wdio/globals": "^9.16.2",
+    "@wdio/local-runner": "^9.16.2",
+    "@wdio/mocha-framework": "^9.16.2",
+    "@wdio/spec-reporter": "^9.16.2"
+  }
+}
